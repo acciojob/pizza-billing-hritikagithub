@@ -34,7 +34,7 @@ public class Pizza {
            this.price = 400;
            this.extraToppingPrice = 120;
         }
-        this.bill = "Base Price Of The Pizza: " +this.price + "\n";
+        this.bill = "Base Price Of The Pizza: "+this.price + "\n";
     }
 
     public int getPrice(){
@@ -83,7 +83,7 @@ public class Pizza {
             if(TakeAwayAdded == true){
                 this.bill = this.bill + "Paperbag Added: " + this.TakeAwayPrice + "\n";
             }
-            this.bill = this.bill + "Total Price: " + this.price + "\n";
+            this.bill = this.bill + "Total Price: " +this.price + "\n";
         }
         return this.bill;
     }
